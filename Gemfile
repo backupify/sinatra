@@ -16,7 +16,7 @@ gem 'ci_reporter', :group => :ci
 
 # Allows stuff like `tilt=1.2.2 bundle install` or `tilt=master ...`.
 # Used by the CI.
-github = "git://github.com/%s.git"
+github = "https://github.com/%s.git"
 repos  = {'tilt' => github % "rtomayko/tilt", 'rack' => github % "rack/rack"}
 
 %w[tilt rack].each do |lib|
